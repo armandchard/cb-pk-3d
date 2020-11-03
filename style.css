@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: #efefef;
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
   display: flex;
@@ -13,19 +14,109 @@ body {
   perspective: 1000px;
 }
 .container {
-  width: 50%;
+  background-color: transparent;
+  width: 280px;
+  height: 180px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .card {
+  background-color: transparent;
   transform-style: preserve-3d;
-  min-height: 80vh;
-  width: 35rem;
-  border-radius: 30px;
-  padding: 0rem 5rem;
+  width: 246px;
+  height: 154px;
+  border-radius: 10px;
+  padding: 0rem;
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
 }
+
+img{
+  position: absolute;
+  z-index: 2;
+}
+
+.top{
+  z-index: 1;
+}
+
+.bottom{
+  z-index: 0;
+}
+
+.big-p{
+  bottom: -1px;
+}
+
+.chip {
+  top: 48px;
+  left: 28px;
+}
+
+.nfc {
+  top: 52px;
+  left: 64px;
+}
+
+.mastercard {
+  left: 80.08%;
+  right: 3.15%;
+  top: 74.03%;
+  bottom: 5.19%;
+}
+
+.expire {
+  left: 28px;
+  bottom: 12px;
+}
+
+.label{
+  left: 28px;
+  bottom: 26px;
+}
+
+.numbers {
+  left: 28px;
+  top: 83px;
+}
+
+.letter-p-1 {
+  left: 161px;
+  top: 12px;
+}
+.letter-u {
+  left: 173px;
+  top: 13px;
+}
+.letter-m {
+  left: 184px;
+  top: 13px;
+}
+.letter-p-2 {
+  left: 203px;
+  top: 12px;
+}
+.letter-k-1 {
+  left: 214px;
+  top: 8px;
+}
+.letter-k-2 {
+  left: 217px;
+  top: 13px;
+}
+.letter-i {
+  left: 224px;
+  top: 13px;
+}
+.letter-i-dot {
+  left: 224px;
+  top: 9px;
+}
+.letter-n {
+  left: 228px;
+  top: 13px;
+}
+
 
 .sneaker {
   min-height: 35vh;
